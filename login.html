@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h2 class="logo">Login 🔐</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="login-page">
+
+<div class="login-box">
+
+    <!-- LEFT SIDE -->
+    <div class="login-left">
+
+        <h2>Login</h2>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter your password">
+
+        <div class="remember">
+            <label class="remember">
+                 Remember Me
+            <input type="checkbox">
+         </label>
+        </div>
+
+        <button class="login-btn" onclick="loginUser()">Login</button>
+          <p id="loginMsg" style="color: green; font-weight: bold;"></p>
+         <button class="create-btn" onclick="goToRegister()">Create Account</button>
+        <p class="help-text">
+            Forgotten your login details?<br>
+            Call Support: 123-456-7890
+        </p>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="login-right">
+        <h3>Welcome to</h3>
+        <h1>Old Age Care Portal</h1>
+        <p>Login to access your dashboard</p>
+    </div>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<div class="footer-container">
+
+    <!-- LEFT -->
+    <div class="footer-left">
+        <h3>Old Age Care Portal</h3>
+        <p>
+            Providing compassionate and professional care for senior citizens.
+            Our mission is to ensure dignity, safety, and happiness for elders.
+        </p>
+    </div>
+
+    <!-- CENTER LINKS -->
+    <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p>📞 +91 98765 43210</p>
+        <p>📧 support@eldercare.com</p>
+    </div>
+
+</div>
+
+<!-- BOTTOM -->
+<div class="footer-bottom">
+    <p>© 2026 Old Age Care Portal | All Rights Reserved</p>
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
